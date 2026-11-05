@@ -2,7 +2,7 @@
 
 ## 概要
 
-Beat Saber 1.44.1 の SongCore 3.16.0 では、JSON の読み込みタスクを、要求された譜面と一致するかを確認せずに再利用することがあります。この Mod はその対策です。
+Beat Saber 1.44.1 の SongCore 3.16.0 では、JSON の読み込みタスクを、要求された譜面と一致するかを確認せずに再利用することがあります。この Plugin はその対策です。
 
 選んだ難易度と出てくるノーツが食い違う原因が、この JSON キャッシュにあるときにだけ入れてください。そうでない場合は不要です。
 
@@ -19,7 +19,9 @@ Beat Saber 1.44.1 の SongCore 3.16.0 では、JSON の読み込みタスクを�
 
 ### 導入
 
-`SongCoreJsonCacheFix.dll` を Beat Saber の `Plugins` フォルダに置きます。外すときは、その DLL を削除します。
+[ここ](https://github.com/SatoDoge/SongCoreJsonCacheFix/releases/latest)から最新ビルドをダウンロード・解凍し`SongCoreJsonCacheFix.dll` を Beat Saber の `Plugins` フォルダに置きます。
+
+Pluginを外したい場合はSongCoreJsonCacheFix.dllを削除してください。
 
 ### ビルド
 
@@ -28,7 +30,3 @@ dotnet build -c Release -p:BeatSaberDir="C:\path\to\Beat Saber"
 ```
 
 DLL は `bin/Release/net472/SongCoreJsonCacheFix.dll` にできます。
-
-### ライセンス
-
-MIT です。[LICENSE](LICENSE) を参照してください。
