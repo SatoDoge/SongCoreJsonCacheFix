@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "SongCoreJsonCacheFix",
+  "name": "SongCoreJsonCacheFix",
+  "author": "SatoDoge",
+  "version": "1.1.2",
+  "gameVersion": "1.44.0",
+  "description": "Makes SongCore 3.16 reuse a cached JSON string or in-flight read only when its BeatmapKey matches the request.",
+  "dependsOn": {
+    "BSIPA": "^4.3.0",
+    "BSML": "^1.12.0",
+    "SongCore": "=3.16.0"
+  }
+}

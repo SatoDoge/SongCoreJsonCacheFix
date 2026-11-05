@@ -1,0 +1,5 @@
+<bg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <settings-container>
+    <bool-setting text="Show status text" value="ShowStatusText" apply-on-change="true" hover-hint="Shows SongCore JSON Cache Fixed!! above the MP+ room title"></bool-setting>
+  </settings-container>
+</bg>
