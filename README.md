@@ -12,10 +12,10 @@ Beat Saber 1.44.1 の SongCore 3.16.0 では、JSON の読み込みタスクを�
 
 ### 対応環境
 
-- Beat Saber 1.44.1
-- SongCore 3.16.0
-- BSIPA 4.3 以降
-- BSML 1.12 以降
+- **Beat Saber 1.44.1**
+- **SongCore 3.16.0**
+- **BSIPA 4.3 以降**
+- **BSML 1.12 以降**
 
 ### 導入
 
